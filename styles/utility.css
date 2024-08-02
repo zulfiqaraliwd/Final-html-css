@@ -1,0 +1,340 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow:hidden;
+
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x:auto; 
+    overflow-y:auto; 
+
+}
+
+@font-face {
+    font-family:aperu;
+    src: url('../Fonts/Apercu/Fonts/Apercu/Font/Family/Apercu-Light-Italic.otf');
+}
+.font-family3{
+    font-family:aperu;
+}
+.boder1{
+  border: 2px solid white;
+}
+@font-face {
+    font-family:buttler;
+    src: url(../Fonts/Butler/Butler_Black.otf);
+}
+.font-family2{
+    font-family: buttler;
+}
+@font-face {
+    font-family:futurak;
+    src: url(../Fonts/futurak/futurak\ \(2\).ttf);
+}
+.font-family{
+    font-family: futurak;
+}
+body {
+    height: 100%;
+    font-family: aperu;
+    color: var(--white);
+    background-color: #000000;
+    overflow-x: auto; 
+    overflow-y: auto; 
+    
+}
+.style-none{
+    list-style: none;
+}
+.li-margin{
+    margin: 20px;
+}
+.colorw{
+    color: var(--white);
+}
+.color {
+    color: var(--green);
+}
+.bg-green{
+    background-color: var(--green);
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --gery: #6c757d;
+    --green: #28a745;
+    --lightblue: #17a2b8;
+    --yellow: #ffc107;
+    --red: #e60c21;
+    --white: #f8f9fa;
+    --dark: #343a40;
+    --black: #000000;
+}
+.letter{
+    letter-spacing:4px;
+}
+.letter2{
+    letter-spacing:4px;
+}
+.justify{
+    text-align: justify;
+}
+.red-color{
+    color: #e60c21;
+}
+.colorr{
+    background-color:var(--red);
+}
+.colorb{
+    color:var(--black);
+}
+.colorw{
+    color: white;
+}
+#red-color{
+    color: red;
+}
+.colorg{
+    color: gray;
+}
+/* flex property */
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content:space-evenly;
+}
+
+.justify-around {
+    justify-content:space-around;
+}
+.dir-col{
+  flex-direction: column;
+}
+.flex-wrap {
+    flex-wrap:wrap;
+}
+
+.align-item{
+    align-items:center;
+}
+
+.gap1 {
+    gap: 10px;
+}
+
+.gap2 {
+    gap: 15px;
+}
+
+.gap3 {
+    gap: 20px;
+}
+.gap5{
+    gap: 50px;
+}
+/*padding top*/
+.padding5 {
+    padding: 8px;
+}
+
+.padding10 {
+    padding: 10px;
+}
+
+.padding13 {
+    padding: 13px;
+}
+
+.padding15 {
+    padding: 15px;
+}
+
+.padding20 {
+    padding: 20px;
+}
+
+.padding21 {
+    padding: 21px;
+}
+
+.padding25 {
+    padding: 25px;
+}
+
+.padding30 {
+    padding: 30px;
+}
+/* margrin */
+.pmargin{
+    margin: 0px 0px 32px;
+}
+.marginCenter {
+    margin: auto;
+}
+
+.magrin20 {
+    margin:20px;
+}
+.mt3{
+    margin-top: 3px;
+}
+.magrin25 {
+    margin: 25px;
+}
+
+.magrin30 {
+    margin: 30px;
+}
+
+/* margin left rigt*/
+.mx10 {
+    margin: 0 10px;
+}
+
+.mx15 {
+    margin: 0 15px;
+}
+
+.mx20 {
+    margin: 0 20px;
+}
+
+.mx25 {
+    margin: 0 25px;
+}
+
+.mx30 {
+    margin: 0 30px;
+}
+
+/* margin top bottm */
+.my10{
+    margin-top:15px;
+}
+.my11{
+ margin-top:2rem;
+}
+.my12{
+    margin-top: 1.6rem;
+}
+.my15{
+    margin-bottom:20px;
+}
+
+.my16{
+    margin-bottom:10px ;
+}
+.my20{
+    margin-bottom:75px;
+}
+
+.my25 {
+    margin: 0 25px;
+}
+
+.my30 {
+    margin: 0 30px;
+}
+
+/* margin bottom */
+.mt10 {
+    margin-bottom: 10px;
+}
+
+.mt15 {
+    margin-bottom: 15px;
+}
+.mt5{
+    margin-bottom:8px;
+}
+.mt20 {
+    margin-bottom: 20px;
+}
+
+.mt25 {
+    margin-bottom: 25px;
+}
+
+.mt30 {
+    margin-bottom: 30px;
+}
+
+/* text area */
+.text-center{
+    text-align:center;
+}
+
+.font-1 {
+    font-size: 1.6rem;
+}
+
+.font2 {
+    font-size: 2rem;
+}
+
+.font3 {
+    font-size: 2.5rem;
+}
+
+.font4 {
+    font-size: 4rem;
+}   
+.font5{
+    font-size: 6rem;
+}
+.font7{
+    font-size:7rem;
+}
+/* border and border-radius */
+.border1 {
+    border: 2px solid white;
+}
+
+.border2 {
+    border: 1px solid black;
+}
+
+.border-r1 {
+    border-radius: 8px;
+}
+
+.border-r2 {
+    border-radius: 15px;
+}
+
+.border-roun1{
+    border-radius:50px;
+}
+.colorg{
+    color: var(--gery);
+}
+.inline-block{
+    display: inline-block;
+}
